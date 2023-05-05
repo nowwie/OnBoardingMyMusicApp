@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/activity_onboarding.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/item_cardview.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/item_grid.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/item_row.xml" value="0.12107396149949341" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/layout/onboarding_item_container.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Novita Azka Maghfira/OnBoardingWithViewPage2/app/src/main/res/menu/menu.xml" value="0.24615384615384617" />
         <entry key="app/src/main/res/drawable/ic_right.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/drawable/icon_bg.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/drawable/icon_outer_bg.xml" value="0.18333333333333332" />

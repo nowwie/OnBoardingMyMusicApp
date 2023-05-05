@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Budgetz</string>
+    <string name="app_name">My Music</string>
+    <string name="music_name">Judul Music</string>
+    <string name="from">Oleh</string>
+    <string name="list">List</string>
+    <string name="Grid">Grid</string>
+    <string name="description">deskripsi</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="with_CardView">With CardView</string>
 </resources>

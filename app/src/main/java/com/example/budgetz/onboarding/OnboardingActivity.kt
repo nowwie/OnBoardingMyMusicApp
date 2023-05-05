@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import androidx.viewpager2.widget.ViewPager2
 import com.example.budgetz.LoginActivity
+import com.example.budgetz.MainActivity
 import com.example.budgetz.R
 import com.google.android.material.button.MaterialButton
 
@@ -36,18 +37,18 @@ class OnboardingActivity : AppCompatActivity() {
         onboardingItemAdapter = OnBoardingItemsAdapter(
             listOf(
                 OnBoardingItem(
-                    onBoardingImage = R.drawable.ilust_one_undraw,
-                    onBoardingTitle = "Manage Your Task",
+                    onBoardingImage = R.drawable.fav,
+                    onBoardingTitle = "Music is my therapy",
                     onBoardingDesc = "Lorem Ipsum Dolor Sit Amet"
                 ),
                 OnBoardingItem(
-                    onBoardingImage = R.drawable.ilus_interview,
-                    onBoardingTitle = "Manage Your Task",
+                    onBoardingImage = R.drawable.listen,
+                    onBoardingTitle = "Sometimes music speaks what u feel inside",
                     onBoardingDesc = "Lorem Ipsum Dolor Sit Amet"
                 ),
                 OnBoardingItem(
-                    onBoardingImage = R.drawable.ilus_launch,
-                    onBoardingTitle = "Manage Your Task",
+                    onBoardingImage = R.drawable.medic,
+                    onBoardingTitle = "Music is medicine",
                     onBoardingDesc = "Lorem Ipsum Dolor Sit Amet"
                 ),
             )
@@ -66,20 +67,20 @@ class OnboardingActivity : AppCompatActivity() {
             if(onBoardingViewPager.currentItem +1 < onboardingItemAdapter.itemCount){
                 onBoardingViewPager.currentItem += 1
             }else{
-                navigateToLogin()
+                navigateToMain()
             }
         }
         findViewById<TextView>(R.id.textSkip).setOnClickListener {
-            navigateToLogin()
+            navigateToMain()
         }
         findViewById<MaterialButton>(R.id.buttonGetStarted).setOnClickListener {
-            navigateToLogin()
+            navigateToMain()
         }
     }
 
 
-    private fun navigateToLogin(){
-        startActivity(Intent(applicationContext, LoginActivity::class.java))
+    private fun navigateToMain(){
+        startActivity(Intent(applicationContext, MainActivity::class.java))
         finish()
     }
 
